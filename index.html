@@ -529,17 +529,13 @@
     </div>
 </div>
 <!--#endregion-->
-    <script>
-        if ('scrollRestoration' in history) {
-            history.scrollRestoration = 'manual';
+  <script>
+    window.addEventListener('pageshow', function () {
+        if (!window.location.hash) {
+            window.scrollTo(0, 0);
         }
-
-        window.addEventListener('pageshow', function (event) {
-            if (window.location.hash === '' || window.location.hash === '#top') {
-                window.scrollTo(0, 0);
-            }
-        });
-    </script>
+    });
+</script>
 <script src="script.js" defer></script>
 <script type="application/ld+json">
     {
