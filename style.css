@@ -194,8 +194,6 @@ video {
     user-select: none;
 }
 
-/* CLOUDS */
-
 .clouds {
     width: 120%;
     left: 55%;
@@ -204,8 +202,6 @@ video {
     will-change: transform;
 }
 
-/* BIRDS */
-
 .birds {
     width: 100%;
     right: 0;
@@ -213,8 +209,6 @@ video {
     animation: birdFly 8s ease-in-out infinite;
     will-change: transform;
 }
-
-/* ANIMATIONS */
 
 @keyframes cloudFloat {
     0%, 100% {
