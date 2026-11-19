@@ -469,7 +469,7 @@ video {
 .about-meta {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
+    gap: 1.5rem;
     padding-top: 2rem;
     border-top: 1px solid #E2DDD5;
 }
@@ -1409,7 +1409,7 @@ video {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 2rem;
+        gap: 0rem;
     }
 
     .about-meta .meta-item > .meta-icon {
